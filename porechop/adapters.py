@@ -105,9 +105,9 @@ ADAPTERS = [Adapter('SQK-NSK007',
                     start_sequence=('PCR_2_start', 'TTTCTGTTGGTGCTGATATTGC'),
                     end_sequence=  ('PCR_2_end',   'GCAATATCAGCACCAACAGAAA')),
 
-            Adapter('PCR adapters 3',
-                    start_sequence=('PCR_3_start', 'TACTTGCCTGTCGCTCTATCTTC'),
-                    end_sequence=  ('PCR_3_end',   'GAAGATAGAGCGACAGGCAAGTA')),
+            Adapter('Illumina',
+                    start_sequence=('illumina_start', 'AATGATACGGCGACCACCGAGATCTACACGCT'),
+                    end_sequence=  ('illumina_end',   'CAAGCAGAAGACGGCATACGAGAT')),
 
 
             # 1D^2 kit adapters are interesting. ONT provided the following sequences on their site:
